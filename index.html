@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aiswarya Raju Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+       
+        
+
+    </head>
+    <body>
+        <header>
+            
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Aiswarya Raju</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Designer</p>
+            <img src="img/aesh1.jpg" alt="a picture of Aiswarya Raju smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Graphic Design</h3>
+                    <p>Balance in design is achieved when a designer has solved the problems put forth in a client brief using an easy to understand, uncluttered visual solution. ... It is this quest for culture, knowledge and skills — capable of filling a lifetime — that make a designer's passion grow and keep the fire of creativity alive.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>3D Model and Character Design</h3>
+                    <p>3D Modelling were my passion and aspiration. And although that path was ultimately successful, I had a long way to go in terms of my basic understanding..</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>UI/UX Design</h3>
+                    <p>UI/UX designing is one of my greatest passions.I get to see the impact of what I do. Seeing my design used by the end-users during usability test is very rewarding. Knowing that it's being used by millions of users makes it even more exciting..</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Designer</p>
+           
+           <div class="about-me__body">
+               <p> I'm a computer science engineering student based in Kerala,India pursuing my dream in developing high quality websites.Currently in the 2nd semester of B-Tech degree.</p>
+               <p>I love programming along with designing,I have experience with C/C++,Sql and Php.Also working as a graphic design intern at GirlScript Foundation.I'm an AR enthusiast too.</p>
+           </div>
+           
+           <img src="img/aesh2.jpg" alt="Aiswarya smiling" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="#" class="portfolio__item">
+                    <video controls width="500px" height="600px">
+                    <source src="workvideo.mp4" alt="" class="work__video">
+                    </video>
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/work1.jpg" alt="" class="portfolio__img" width="800px" height="600px">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/work2.jpg" alt="" class="portfolio__img" width="800px" height="600px">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/work3.png" alt="" class="portfolio__img" width="800px" height="600px">             
+                
+               
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:aiswaryaraju2001@gmail.com" class="footer__link">aiswaryaraju2001@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/aiswarya-raju">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://instagram.com/aeshw.a.r.y.a__raju" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+               
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/aiswaryaraju04" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="copy">
+				<br>&copy; Aiswarya Raju | 2020
+			</div>
+        </footer>
+        
+        
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
